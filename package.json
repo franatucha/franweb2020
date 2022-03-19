@@ -1,5 +1,5 @@
 {
-  "name": "mywebnodejs",
+  "name": "franweb2020",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
@@ -9,17 +9,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/franatucha/myWebnodejs.git"
+    "url": "git+https://github.com/franatucha/franweb2020.git"
   },
   "author": "fran",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/franatucha/myWebnodejs/issues"
+    "url": "https://github.com/franatucha/franweb2020/issues"
   },
   "engines": {
     "node": "16.14.2"
   },
-  "homepage": "https://github.com/franatucha/myWebnodejs#readme",
+  "homepage": "https://github.com/franatucha/franweb2020#readme",
   "dependencies": {
     "fastify-cli": "^2.15.0"}
 }
