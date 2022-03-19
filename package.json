@@ -18,5 +18,8 @@
   "engines": {
     "node": "16.14.2"
   },
-  "homepage": "https://github.com/franatucha/myWeb.nodejs#readme"
+  "homepage": "https://github.com/franatucha/myWeb.nodejs#readme",
+  "dependencies": {
+    "fastify-cli": "^2.15.0"
+  }
 }
