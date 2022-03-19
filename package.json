@@ -1,25 +1,14 @@
 {
-  "name": "franweb2020",
+  "name": "franweb1010",
   "version": "1.0.0",
-  "description": "",
+  "description": "my first nodejs express app",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon app.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/franatucha/franweb2020.git"
-  },
-  "author": "fran",
+  "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/franatucha/franweb2020/issues"
-  },
-  "engines": {
-    "node": "16.14.2"
-  },
-  "homepage": "https://github.com/franatucha/franweb2020#readme",
   "dependencies": {
-    "fastify-cli": "^2.15.0"}
+    "express": "^4.17.3"
+  }
 }
