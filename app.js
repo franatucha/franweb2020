@@ -1,6 +1,7 @@
 const http = require('http')
 const fs = require('fs')
-const port = 5001
+
+const PORT = process.env.PORT || 5001;
 
 const server = http.createServer(function(req, res) {
 	res.writeHead(200, { 'Content-Type': 'text/html' })
@@ -15,6 +16,11 @@ const server = http.createServer(function(req, res) {
 	})
 })
 
+app.listen(PORT, () => {
+	console.log(`App listening on port ${PORT}`);
+	console.log('Press Ctrl+C to quit.');
+  });
+
 server.listen(port, function(error) {
 	if (error) {
 		console.log('Something went wrong', error)
@@ -22,3 +28,4 @@ server.listen(port, function(error) {
 		console.log('Server is listening to port' + port)
 		}
 })
+
