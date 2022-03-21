@@ -20,12 +20,3 @@ app.listen(PORT, () => {
 	console.log(`App listening on port ${PORT}`);
 	console.log('Press Ctrl+C to quit.');
   });
-
-server.listen(port, function(error) {
-	if (error) {
-		console.log('Something went wrong', error)
-		} else {
-		console.log('Server is listening to port' + port)
-		}
-})
-
